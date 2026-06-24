@@ -10,10 +10,10 @@ O objetivo é aplicar os conceitos de versionamento utilizando Git e GitHub, inc
 
 * Marcos Vinicius de Sousa
 * Pedro Lucas Gomes de Sousa
-* Maria Clara Medrado de Sousa
+* Maria Clara de Souza Medrado
 * Elissandra Pereira Rodrigues
 * Tayla Maria de Sousa Gomes
-* Luis Gustavo Macedo Nunes
+* Luis Gustavo Macêdo Nunes
 
 ## Estrutura Inicial
 
