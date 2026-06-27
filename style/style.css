@@ -112,3 +112,74 @@ body {
 	h3 {
 		font-size: 1.25em;
 	}
+
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		/* Faz a cor mudar de forma suave em 0.2 segundos */
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 8px; /* Cantos arredondados */
+		border: 0;
+		cursor: pointer; /* Transforma a seta do mouse na 'mãozinha' */
+		display: inline-block;
+		font-weight: 300;
+		height: 2.75em;
+		line-height: 2.75em;
+		min-width: 9.25em;
+		padding: 0 1.5em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+
+
+/* Form */
+
+	form {
+		margin: 0 0 2em 0;
+	}
+
+	label {
+		display: block;
+		font-size: 0.9em;
+		font-weight: 400;
+		margin: 0 0 1em 0;
+		color: #ffffff;
+	}
+
+	input[type="text"],
+	input[type="tel"],
+	input[type="email"],
+	select,
+	textarea {
+		border-radius: 8px;
+		border: solid 1px;
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: 0 1em;
+		text-decoration: none;
+		width: 100%;
+		height: 2.75em;
+		background-color: rgba(255, 255, 255, 0.075);
+		border-color: rgba(255, 255, 255, 0.35);
+	}
+
+	textarea {
+		padding: 0.75em 1em;
+		height: auto; /* Permite que a caixa de mensagem cresça verticalmente */
+	}
+
+	input[type="text"]:focus,
+	input[type="tel"]:focus,
+	input[type="email"]:focus,
+	select:focus,
+	textarea:focus {
+		border-color: #8cc9f0;
+		box-shadow: 0 0 0 1px #8cc9f0;
+	}
